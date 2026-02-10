@@ -129,6 +129,7 @@ load(
 maven_install(
     artifacts = [
         "androidx.core:core:1.6.0",
+        "androidx.preference:preference:1.1.1",
         "androidx.test:core:1.4.0",
         "androidx.test.ext:junit:1.1.4",
         "androidx.test.espresso:espresso-core:3.5.0",

@@ -25,5 +25,6 @@ android_library(
     deps = [
         "//:dagger-android",
         "@maven//:androidx_appcompat_appcompat",
+        "@maven//:javax_inject_javax_inject",
     ],
 )

@@ -21,6 +21,7 @@ package(default_applicable_licenses = ["//:license"])
 cc_binary(
     name = "filewrapper",
     srcs = ["filewrapper.cc"],
+    visibility = ["//visibility:public"],
     deps = [
         "@com_google_absl//absl/log:check",
         "@com_google_absl//absl/strings",

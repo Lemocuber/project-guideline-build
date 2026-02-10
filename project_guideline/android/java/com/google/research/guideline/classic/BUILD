@@ -26,8 +26,8 @@ android_library(
     name = "classic",
     srcs = glob(["*.java"]),
     assets = [
-        "//third_party/project_guideline/android/mediapipe/graphs:mobile_graphs",
-        "//third_party/project_guideline/vision/models:guideline_f32input_singlechannel.tflite",
+        "//project_guideline/android/mediapipe/graphs:mobile_graphs",
+        "//project_guideline/vision/models:guideline_f32input_singlechannel.tflite",
     ],
     exports_manifest = 1,
     manifest = "AndroidManifest.xml",
@@ -63,6 +63,6 @@ android_library(
 android_library(
     name = "native_libs",
     exports = [
-        "//third_party/project_guideline/android/mediapipe:mediapipe_jni_lib",
+        "//project_guideline/android/mediapipe:mediapipe_jni_lib",
     ],
 )

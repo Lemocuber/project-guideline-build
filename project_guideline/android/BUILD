@@ -13,7 +13,7 @@
 # limitations under the License.
 
 load("@build_bazel_rules_android//android:rules.bzl", "android_binary")
-load("//third_party/bazel_skylib/rules:common_settings.bzl", "bool_flag")
+load("@bazel_skylib//rules:common_settings.bzl", "bool_flag")
 
 package(
     default_applicable_licenses = ["//:license"],

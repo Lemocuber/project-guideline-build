@@ -25,7 +25,7 @@ package(
 package_group(
     name = "tests",
     packages = [
-        "//third_party/project_guideline/android/javatests/...",
+        "//project_guideline/android/javatests/...",
     ],
 )
 

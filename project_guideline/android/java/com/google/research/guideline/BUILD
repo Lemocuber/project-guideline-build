@@ -30,12 +30,6 @@ android_library(
     deps = [
         "//project_guideline/android/java/com/google/research/guideline/guidance",
         "//third_party/hilt:hilt_android_app",
-    ] + select({
-        "//third_party/project_guideline/android:use_guideline_classic_mode": [
-            "//project_guideline/android/java/com/google/research/guideline/classic",
-        ],
-        "//conditions:default": [
-            "//project_guideline/android/java/com/google/research/guideline/engine",
-        ],
-    }),
+        "//project_guideline/android/java/com/google/research/guideline/engine",
+    ],
 )
